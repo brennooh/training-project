@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="727405562f7b29108f54bed72799b6be" label="x_938900_bootcampe_m2m_servicos_grupos servicos" max_length="40" name="x_938900_bootcampe_m2m_x_938900_boo_x_938900_boo" type="collection">
+        <element attributes="encode_utf8=false" label="grupos servicos" max_length="32" name="x_938900_bootcampe_grupos_servicos" reference="x_938900_bootcampe_grupos_servicos" type="reference"/>
+        <element attributes="encode_utf8=false" label="servicos" max_length="32" name="x_938900_bootcampe_servicos" reference="x_938900_bootcampe_servicos" type="reference"/>
+        <index name="index">
+            <element name="x_938900_bootcampe_servicos"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl/>
+        <http_method>POST</http_method>
+        <name>Create Record</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+// implement resource here
+var respObj = {}; //declare the response object
+var payload = request.body.data;  //retrieving the JSON body
+var solicitante = payload.chave_solicitante;
+var info = payload.informacoes_adicionais;
+
+var grUser = new GlideRecord('sys_user');
+grUser.addQuery('user_name', solicitante);
+grUser.query();
+while(grUser.next()){
+var user_id = grUser.sys_id;
+}
+
+var grBtc = new GlideRecord("x_938900_bootcampe_bootcampers");
+grBtc.initialize();
+grBtc.solicitante = solicitante;
+grBtc.informacoes_adicionais = info;
+grBtc.chave_solicitante = solicitante;
+var btc_id = grBtc.insert();
+
+var grTsk = new GlideRecord("service_task");
+grTsk.initialize();
+grTsk.parent = btc_id;
+var tsk_id = grTsk.insert();
+
+this.status = '200';
+respObj.body = {
+"message": "Creation Success!",
+"detail": "",
+"case number": grBtc.number,
+"task number": grTsk.number
+};
+
+if(tsk_id){
+response.setBody(respObj);
+response.setStatus(this.status);
+return response;
+}
+else{
+var myError = new sn_ws_err.ServiceError();
+myError.setStatus(442);
+myError.setMessage('Something gone wrong');
+myError.setDetail('Something gone wrong.');
+return myError;
+}
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_938900_bootcampe/teste_rp/create_csm</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/create_csm</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>false</requires_authentication>
+        <requires_snc_internal_role>false</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-21 22:15:24</sys_created_on>
+        <sys_id>ac2b81002f8321108f54bed72799b651</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Create Record</sys_name>
+        <sys_package display_value="Bootcampers" source="x_938900_bootcampe">7b25028f2fd661108f54bed72799b692</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bootcampers">7b25028f2fd661108f54bed72799b692</sys_scope>
+        <sys_update_name>sys_ws_operation_ac2b81002f8321108f54bed72799b651</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-21 23:58:00</sys_updated_on>
+        <web_service_definition display_value="Teste Rp">bc594dc82f4321108f54bed72799b676</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

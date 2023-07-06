@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="52d8c0c52f0321108f54bed72799b637" extends="task" label="questionario" max_length="40" name="x_938900_bootcampe_questionario" type="collection">
+        <element choice="1" label="Pergunta 1" max_length="40" name="pergunta_1" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sim" sequence="10" value="sim"/>
+                <element inactive_on_update="false" label="Nao" sequence="20" value="nao"/>
+            </choice>
+        </element>
+        <element choice="1" label="Pergunta 2" max_length="40" name="pergunta_2" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sim" sequence="10" value="sim"/>
+                <element inactive_on_update="false" label="Nao" sequence="20" value="nao"/>
+            </choice>
+        </element>
+        <element choice="1" label="Pergunta 3" max_length="40" name="pergunta_3" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sim" sequence="10" value="sim"/>
+                <element inactive_on_update="false" label="Nao" sequence="20" value="nao"/>
+            </choice>
+        </element>
+        <element choice="1" label="Pergunta 4" max_length="40" name="pergunta_4" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sim" sequence="10" value="sim"/>
+                <element inactive_on_update="false" label="Nao" sequence="20" value="nao"/>
+            </choice>
+        </element>
+        <element choice="1" label="Tipo de Participacao" max_length="40" name="tipo_part" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Batata" value="batata"/>
+                <element inactive_on_update="false" label="Investimento Mesmo Grupo" value="2"/>
+                <element inactive_on_update="false" label="Participacao Sem Influencia" value="1"/>
+            </choice>
+        </element>
+        <element label="Tipo de Participação" max_length="100" name="tipo_participacao" read_only="true" type="string"/>
+    </element>
+</database>

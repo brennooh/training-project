@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>zip_code</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>getAddressByZIPCode</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+if (isLoading || newValue === '') {
+	return;
+}
+// Verifica se o formato do CEP digitado é válido
+if(!(isNaN(newValue)) && newValue.length==8) {
+var gaViaCep = new GlideAjax('global.getAddressByZIPCode');
+// Envia o valor do campo CEP com parâmetro para o Script Include
+gaViaCep.addParam('sysparm_cep',g_form.getValue("zip_code"));
+// Function a ser chamada no Script Include
+gaViaCep.addParam('sysparm_name','getAddress');
+gaViaCep.getXML(updateCampus);
+} else {
+// Limpa os campos de endereço
+clearAddressFields();
+showMessage("zip_code","Invalid Postal Code Format. Please, enter a valid postal code (eg: 12345678).","error");
+}
+}
+
+
+
+function updateCampus(response) {
+var answer = response.responseXML.documentElement.getAttribute("answer");
+
+if(answer) {
+// Avalia se a resposta retornada é um JSON válido
+var returneddata = answer.evalJSON(true);
+
+// Limpa as mensagens do form
+g_form.clearMessages();
+
+
+
+// Limpa os campos de endereço
+clearAddressFields();
+
+// Verifica se o ViaCep retornou uma resposta válida (CEP encontrado)
+if(!returneddata.erro) {
+// Atribui os valores retornados aos campos do formulário
+g_form.setValue("address",returneddata.logradouro);
+g_form.setValue("neighborhood",returneddata.bairro);
+g_form.setValue("city",returneddata.localidade);
+g_form.setValue("estate",returneddata.uf);
+} else {
+// CEP não encontrado no ViaCep
+showMessage("zip_code","Postal Code not found at ViaCep","info");
+}
+} else {
+// Não houve resposta para a consulta
+// Formato de CEP inválido para o ViaCep
+showMessage("zip_code","Invalid Postal Code Code Format. Please, enter a valid postal code (eg: 12345678).","error");
+}
+}
+
+
+
+function clearAddressFields() {
+// Limpa as mensagens do form
+g_form.clearMessages();
+// Limpa os campos de endereço
+g_form.clearValue("address");
+g_form.clearValue("neighborhood");
+g_form.clearValue("city");
+g_form.clearValue("estate");
+}
+
+
+
+function showMessage(field,message,type) {
+// Limpa as mensagens do form
+g_form.clearMessages();
+if(type=="error") {
+// Mensagem no topo do form
+g_form.addErrorMessage(message);
+} else if(type=="info") {
+g_form.addInfoMessage(message);
+}
+// Mensagem no campo Zip Code
+g_form.showFieldMsg(field,message,type);
+}
+
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 22:16:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>985c5a1b2f9aa1108f54bed72799b67c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>getAddressByZIPCode</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bootcampers" source="x_938900_bootcampe">7b25028f2fd661108f54bed72799b692</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bootcampers">7b25028f2fd661108f54bed72799b692</sys_scope>
+        <sys_update_name>sys_script_client_985c5a1b2f9aa1108f54bed72799b67c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 22:23:01</sys_updated_on>
+        <table>x_938900_bootcampe_profile</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

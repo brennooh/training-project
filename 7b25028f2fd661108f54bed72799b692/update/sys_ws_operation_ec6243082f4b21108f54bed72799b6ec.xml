@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl/>
+        <http_method>PATCH</http_method>
+        <name>Update Case and Task</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+// implement resource here
+var respObj = {}; //declare the response object
+var payload = request.body.data;  //retrieving the JSON body
+var executante = payload.chave_executante;
+var case_number = payload.case_number;
+var task_number = payload.task_number;
+var grupo_executante = payload.grupo_executante;
+
+var grCase = new GlideRecord("x_938900_bootcampe_bootcampers");
+grCase.addQuery('number', case_number);
+grCase.query();
+
+while(grCase.next()){
+grCase.assigned_to = executante;
+grCase.assignment_group = grupo_executante;
+grCase.update();
+}
+
+var grTask = new GlideRecord("service_task");
+grTask.addQuery('number', task_number);
+grTask.query();
+
+while(grTask.next()){
+grTask.assigned_to = executante;
+grTask.assignment_group = grupo_executante;
+grTask.update();
+}
+
+this.status = '200';
+respObj.body = {
+"message": "Update Success!",
+"detail": ""
+};
+
+response.setBody(respObj);
+response.setStatus(this.status);
+return response;
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_938900_bootcampe/update_case/upd_cs_tsk</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/upd_cs_tsk</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>false</requires_authentication>
+        <requires_snc_internal_role>false</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-22 05:45:42</sys_created_on>
+        <sys_id>ec6243082f4b21108f54bed72799b6ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Case and Task</sys_name>
+        <sys_package display_value="Bootcampers" source="x_938900_bootcampe">7b25028f2fd661108f54bed72799b692</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bootcampers">7b25028f2fd661108f54bed72799b692</sys_scope>
+        <sys_update_name>sys_ws_operation_ec6243082f4b21108f54bed72799b6ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-22 05:45:42</sys_updated_on>
+        <web_service_definition display_value="Update Case">be3207082f4b21108f54bed72799b6af</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

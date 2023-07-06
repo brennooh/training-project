@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3b0602032f1a61108f54bed72799b650" extends="task" label="Bootcamper" max_length="40" name="x_938900_bootcampe_bootcampers" type="collection">
+        <element label="Active user on Servicenow" max_length="40" name="active_user_servicenow" type="boolean"/>
+        <element label="Chave Executante" max_length="15" name="chave_executante" type="string"/>
+        <element label="Chave Solicitante" max_length="20" name="chave_solicitante" type="string"/>
+        <element choice="1" label="Course" mandatory="true" max_length="40" name="course" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bootcamp" value="bootcamp"/>
+                <element inactive_on_update="false" label="Bootcamp" language="pb" value="bootcamp"/>
+                <element inactive_on_update="false" label="ServiceNow Fundamentals" value="servicenow"/>
+                <element inactive_on_update="false" label="ServiceNow Fundamentos" language="pb" value="servicenow"/>
+                <element inactive_on_update="false" label="Shark Talent" language="pb" value="shark"/>
+                <element inactive_on_update="false" label="Shark Talent" value="shark"/>
+            </choice>
+        </element>
+        <element label="Executante" max_length="32" name="executante" reference="sys_user" type="reference"/>
+        <element label="E-mail" max_length="50" name="e_mail" type="string"/>
+        <element choice="1" label="Gender" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Female" value="female"/>
+                <element inactive_on_update="false" label="Feminino" language="pb" value="female"/>
+                <element inactive_on_update="false" label="Male" value="male"/>
+                <element inactive_on_update="false" label="Masculino" language="pb" value="male"/>
+                <element inactive_on_update="false" label="Other" value="other"/>
+                <element inactive_on_update="false" label="Outro" language="pb" value="other"/>
+            </choice>
+        </element>
+        <element label="Informações Adicionais" max_length="255" name="informacoes_adicionais" type="string_full_utf8"/>
+        <element label="Lista de Usuarios" max_length="4000" name="lista_de_usuarios" reference="sys_user" reference_qual="company=31bea3d53790200044e0bfc8bcbe5dec^EQ" reference_qual_condition="company=31bea3d53790200044e0bfc8bcbe5dec^EQ" type="glide_list"/>
+        <element display="true" label="Name" max_length="100" name="name" type="string"/>
+        <element label="Occupation" max_length="50" name="occupation" type="string"/>
+        <element label="Solicitante" max_length="32" name="solicitante" reference="sys_user" type="reference"/>
+        <element label="Zip Code" max_length="15" name="zip_code" type="string"/>
+    </element>
+</database>

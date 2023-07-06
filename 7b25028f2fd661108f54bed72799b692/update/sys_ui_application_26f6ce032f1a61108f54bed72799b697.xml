@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>BOOTCAMPERS</name>
+        <order/>
+        <roles>x_938900_bootcampe.bootcampers_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 01:58:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>26f6ce032f1a61108f54bed72799b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BOOTCAMPERS</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bootcampers" source="x_938900_bootcampe">7b25028f2fd661108f54bed72799b692</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bootcampers">7b25028f2fd661108f54bed72799b692</sys_scope>
+        <sys_update_name>sys_ui_application_26f6ce032f1a61108f54bed72799b697</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 01:58:08</sys_updated_on>
+    </sys_ui_application>
+</record_update>

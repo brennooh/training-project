@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="842205922f7b29108f54bed72799b69f" label="servicos" max_length="40" name="x_938900_bootcampe_servicos" type="collection">
+        <element default="true" label="Ativo" max_length="40" name="ativo" type="boolean"/>
+        <element display="true" label="Nome do Servico" max_length="50" name="nome_do_servico" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

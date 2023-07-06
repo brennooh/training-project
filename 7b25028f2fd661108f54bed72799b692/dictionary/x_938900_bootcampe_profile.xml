@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="6b1706432f1a61108f54bed72799b65e" extends="task" label="Profile" max_length="40" name="x_938900_bootcampe_profile" type="collection">
+        <element label="Address" max_length="100" name="address" read_only="true" type="string"/>
+        <element label="Address Number" max_length="20" name="address_number" type="string"/>
+        <element display="true" label="Bootcamper" max_length="32" name="bootcamper" read_only="true" reference="x_938900_bootcampe_bootcampers" type="reference"/>
+        <element label="City" max_length="100" name="city" read_only="true" type="string"/>
+        <element label="Complement" max_length="100" name="complement" type="string"/>
+        <element choice="1" label="Course" max_length="40" name="course" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bootcamp" language="pb" value="bootcamp"/>
+                <element inactive_on_update="false" label="Bootcamp" value="bootcamp"/>
+                <element inactive_on_update="false" label="ServiceNow Fundamentals" value="servicenow"/>
+                <element inactive_on_update="false" label="ServiceNow Fundamentos" language="pb" value="servicenow"/>
+                <element inactive_on_update="false" label="Shark Talent" language="pb" value="shark"/>
+                <element inactive_on_update="false" label="Shark Talent" value="shark"/>
+            </choice>
+        </element>
+        <element label="Estate" max_length="100" name="estate" read_only="true" type="string"/>
+        <element label="Neighborhood" max_length="100" name="neighborhood" read_only="true" type="string"/>
+        <element label="Zip Code" max_length="15" name="zip_code" type="string"/>
+    </element>
+</database>

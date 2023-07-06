@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="92f555f02fbba1108f54bed72799b69d" label="Group check" max_length="40" name="x_938900_bootcampe_group_check" type="collection">
+        <element default="true" label="Ativo" max_length="40" name="ativo" type="boolean"/>
+        <element label="Grupo" max_length="32" name="grupo" reference="sys_user_group" type="reference"/>
+        <element display="true" label="Servico" max_length="32" name="servico" reference="sc_cat_item_producer" type="reference"/>
+        <index name="index">
+            <element name="grupo"/>
+        </index>
+        <index name="index2">
+            <element name="servico"/>
+        </index>
+    </element>
+</database>

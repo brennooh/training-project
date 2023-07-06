@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3b37c1452f1721108f54bed72799b6c5" extends="sys_user" label="Email Ex" max_length="40" name="x_938900_bootcampe_email_ex" type="collection"/>
+</database>

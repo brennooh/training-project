@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>incident</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>&lt;mail script&gt;</p>
+<p>var grUser = new GlideRecord("x_938900_bootcampe_email");</p>
+<p>grUser.query();</p>
+<p>while(grUser.next()){</p>
+<p>email.addAddress('cc', grUser.email);</p>
+<p>}</p>
+<p>&lt;/mail script&gt;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>adduser</name>
+        <sms_alternate/>
+        <subject/>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-06 10:04:29</sys_created_on>
+        <sys_id>b54191012f5721108f54bed72799b6a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>adduser</sys_name>
+        <sys_package display_value="Bootcampers" source="x_938900_bootcampe">7b25028f2fd661108f54bed72799b692</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bootcampers">7b25028f2fd661108f54bed72799b692</sys_scope>
+        <sys_update_name>sysevent_email_template_b54191012f5721108f54bed72799b6a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-06 10:04:29</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

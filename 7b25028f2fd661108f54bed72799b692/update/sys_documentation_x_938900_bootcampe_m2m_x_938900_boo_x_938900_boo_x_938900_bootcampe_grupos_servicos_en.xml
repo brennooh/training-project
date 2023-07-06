@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_938900_bootcampe_grupos_servicos" label="grupos servicos" language="en" table="x_938900_bootcampe_m2m_x_938900_boo_x_938900_boo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_938900_bootcampe_grupos_servicos</element>
+            <help/>
+            <hint/>
+            <label>grupos servicos</label>
+            <language>en</language>
+            <name>x_938900_bootcampe_m2m_x_938900_boo_x_938900_boo</name>
+            <plural>grupos servicos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-05 02:46:22</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>grupos servicos</sys_name>
+            <sys_package display_value="Bootcampers" source="x_938900_bootcampe">7b25028f2fd661108f54bed72799b692</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bootcampers">7b25028f2fd661108f54bed72799b692</sys_scope>
+            <sys_update_name>sys_documentation_x_938900_bootcampe_m2m_x_938900_boo_x_938900_boo_x_938900_bootcampe_grupos_servicos_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-05 02:46:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

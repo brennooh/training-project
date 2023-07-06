@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2fb285d22f7b29108f54bed72799b6fe" label="grupos servicos" max_length="40" name="x_938900_bootcampe_grupos_servicos" type="collection">
+        <element default="true" label="Ativo" max_length="40" name="ativo" type="boolean"/>
+        <element display="true" label="Grupo de Atendimento" max_length="32" name="grupo_de_atendimento" reference="sys_user_group" type="reference"/>
+        <index name="index">
+            <element name="grupo_de_atendimento"/>
+        </index>
+    </element>
+</database>
