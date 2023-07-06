@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>94fe294a2f7d21108f54bed72799b64b</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="rm_story"&gt;
+    &lt;rm_story action="INSERT_OR_UPDATE"&gt;
+        &lt;acceptance_criteria&gt;&lt;![CDATA[&lt;p&gt;Existem diversas formas de importar dados de fontes externas para o ServiceNow. Uma das mais comuns, é a importação de dados oriundos de planilhas Excel.&lt;/p&gt;
+&lt;p&gt;Anexado nesta story está uma planilha contendo alguns fornecedores.&lt;/p&gt;
+&lt;p&gt;Faça o import desta planilha para a plataforma.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://docs.servicenow.com/pt-BR/bundle/sandiego-platform-administration/page/administer/import-sets/concept/c_ImportSetsKeyConcepts.html" rel="nofollow"&gt;https://docs.servicenow.com/pt-BR/bundle/sandiego-platform-administration/page/administer/import-sets/concept/c_ImportSetsKeyConcepts.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://docs.servicenow.com/pt-BR/bundle/sandiego-platform-administration/page/script/server-scripting/task/t_CreateATransformMap.html" rel="nofollow"&gt;https://docs.servicenow.com/pt-BR/bundle/sandiego-platform-administration/page/script/server-scripting/task/t_CreateATransformMap.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dica: Sempre tire um tempo pra analisar o arquivo que está sendo importado, antes da importação. Assim, você pode fazer correções e limpar informações desnecessárias.&lt;/p&gt;]]&gt;&lt;/acceptance_criteria&gt;
+        &lt;action_status/&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;activity_due/&gt;
+        &lt;additional_assignee_list/&gt;
+        &lt;agile_story display_value="11 - Training Story - Import Data"&gt;94fe294a2f7d21108f54bed72799b64b&lt;/agile_story&gt;
+        &lt;allow_dates_outside_schedule&gt;false&lt;/allow_dates_outside_schedule&gt;
+        &lt;approval&gt;not requested&lt;/approval&gt;
+        &lt;approval_history/&gt;
+        &lt;approval_set/&gt;
+        &lt;assigned_to/&gt;
+        &lt;assignment_group display_value="Training Project" name="Training Project"&gt;9829f6782f6965108f54bed72799b676&lt;/assignment_group&gt;
+        &lt;backlog_definition/&gt;
+        &lt;backlog_type&gt;product&lt;/backlog_type&gt;
+        &lt;blocked&gt;false&lt;/blocked&gt;
+        &lt;blocked_reason/&gt;
+        &lt;business_duration/&gt;
+        &lt;business_service/&gt;
+        &lt;calculation_type&gt;automatic&lt;/calculation_type&gt;
+        &lt;calendar_duration/&gt;
+        &lt;classification&gt;Feature&lt;/classification&gt;
+        &lt;close_notes/&gt;
+        &lt;closed_at/&gt;
+        &lt;closed_by/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;comments/&gt;
+        &lt;comments_and_work_notes/&gt;
+        &lt;company/&gt;
+        &lt;constraint_date/&gt;
+        &lt;contact_type/&gt;
+        &lt;contract/&gt;
+        &lt;correlation_display/&gt;
+        &lt;correlation_id/&gt;
+        &lt;critical_path&gt;false&lt;/critical_path&gt;
+        &lt;defect/&gt;
+        &lt;delivery_plan/&gt;
+        &lt;delivery_task/&gt;
+        &lt;dependency/&gt;
+        &lt;description&gt;Dado que sou um usuário com permissão de escrita na aplicação&amp;#13;
+Quando necessário importar dados externos&amp;#13;
+Então desejo conseguir importar dados de uma planilha excel direto para a plataforma&lt;/description&gt;
+        &lt;due_date/&gt;
+        &lt;duration&gt;1970-01-02 00:00:00&lt;/duration&gt;
+        &lt;effort/&gt;
+        &lt;end&gt;2023-03-27&lt;/end&gt;
+        &lt;end_date&gt;2023-03-27 01:07:49&lt;/end_date&gt;
+        &lt;end_date_derived_from/&gt;
+        &lt;enhancement/&gt;
+        &lt;epic display_value="Training Project"&gt;f2c936b82f6965108f54bed72799b682&lt;/epic&gt;
+        &lt;escalation&gt;0&lt;/escalation&gt;
+        &lt;expected_start/&gt;
+        &lt;follow_up/&gt;
+        &lt;global_rank&gt;4001150000&lt;/global_rank&gt;
+        &lt;group_list/&gt;
+        &lt;group_rank/&gt;
+        &lt;has_conflict&gt;false&lt;/has_conflict&gt;
+        &lt;html_description/&gt;
+        &lt;impact&gt;3&lt;/impact&gt;
+        &lt;key_milestone&gt;false&lt;/key_milestone&gt;
+        &lt;knowledge&gt;false&lt;/knowledge&gt;
+        &lt;level/&gt;
+        &lt;location/&gt;
+        &lt;made_sla&gt;true&lt;/made_sla&gt;
+        &lt;milestone&gt;false&lt;/milestone&gt;
+        &lt;model_id/&gt;
+        &lt;mpp_task_id/&gt;
+        &lt;needs_attention&gt;false&lt;/needs_attention&gt;
+        &lt;number&gt;STRY0010011&lt;/number&gt;
+        &lt;opened_at&gt;2023-03-27 01:07:49&lt;/opened_at&gt;
+        &lt;opened_by display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/opened_by&gt;
+        &lt;order/&gt;
+        &lt;orig_sys_id/&gt;
+        &lt;orig_top_task_id/&gt;
+        &lt;original_task display_value="STRY0010011"&gt;94fe294a2f7d21108f54bed72799b64b&lt;/original_task&gt;
+        &lt;override_status&gt;false&lt;/override_status&gt;
+        &lt;parent display_value="SPNT0010001"&gt;05693e782f6965108f54bed72799b649&lt;/parent&gt;
+        &lt;parent_feature/&gt;
+        &lt;percent_complete&gt;0&lt;/percent_complete&gt;
+        &lt;priority&gt;4&lt;/priority&gt;
+        &lt;product display_value="Training Project"&gt;40b9b2b82f6965108f54bed72799b636&lt;/product&gt;
+        &lt;product_rank/&gt;
+        &lt;product_rel_index&gt;1000000&lt;/product_rel_index&gt;
+        &lt;rank/&gt;
+        &lt;reassignment_count&gt;0&lt;/reassignment_count&gt;
+        &lt;rejection_goto/&gt;
+        &lt;relation_applied/&gt;
+        &lt;release/&gt;
+        &lt;release_index/&gt;
+        &lt;remaining_duration/&gt;
+        &lt;remaining_effort/&gt;
+        &lt;rollup&gt;false&lt;/rollup&gt;
+        &lt;route_reason/&gt;
+        &lt;run_calc_brs&gt;true&lt;/run_calc_brs&gt;
+        &lt;schedule_end_date&gt;2023-03-27 01:07:49&lt;/schedule_end_date&gt;
+        &lt;schedule_start_date&gt;2023-03-27 01:07:49&lt;/schedule_start_date&gt;
+        &lt;service_offering/&gt;
+        &lt;shadow&gt;false&lt;/shadow&gt;
+        &lt;short_description&gt;11 - Training Story - Import Data&lt;/short_description&gt;
+        &lt;skills/&gt;
+        &lt;sla_due/&gt;
+        &lt;software_model/&gt;
+        &lt;split_from/&gt;
+        &lt;sprint display_value="Sprint 1"&gt;05693e782f6965108f54bed72799b649&lt;/sprint&gt;
+        &lt;sprint_index&gt;1000000&lt;/sprint_index&gt;
+        &lt;start&gt;2023-03-27&lt;/start&gt;
+        &lt;start_date&gt;2023-03-27 01:07:49&lt;/start_date&gt;
+        &lt;start_date_derived_from/&gt;
+        &lt;state&gt;1&lt;/state&gt;
+        &lt;status&gt;green&lt;/status&gt;
+        &lt;story_points/&gt;
+        &lt;sub_tree_root/&gt;
+        &lt;sys_class_name&gt;rm_story&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-03-27 01:20:39&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;94fe294a2f7d21108f54bed72799b64b&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-03-27 05:25:04&lt;/sys_updated_on&gt;
+        &lt;task&gt;11 - Training Story - Import Data​STRY0010011&lt;/task&gt;
+        &lt;task_effective_number&gt;STRY0010011&lt;/task_effective_number&gt;
+        &lt;theme/&gt;
+        &lt;time_constraint&gt;asap&lt;/time_constraint&gt;
+        &lt;time_worked/&gt;
+        &lt;time_zone/&gt;
+        &lt;top_task display_value="STRY0010011"&gt;94fe294a2f7d21108f54bed72799b64b&lt;/top_task&gt;
+        &lt;type/&gt;
+        &lt;universal_request/&gt;
+        &lt;upon_approval&gt;proceed&lt;/upon_approval&gt;
+        &lt;upon_reject&gt;cancel&lt;/upon_reject&gt;
+        &lt;urgency&gt;3&lt;/urgency&gt;
+        &lt;user_input/&gt;
+        &lt;variables/&gt;
+        &lt;version/&gt;
+        &lt;watch_list/&gt;
+        &lt;wbs/&gt;
+        &lt;wbs_order/&gt;
+        &lt;wf_activity/&gt;
+        &lt;work_duration/&gt;
+        &lt;work_effort/&gt;
+        &lt;work_end/&gt;
+        &lt;work_notes/&gt;
+        &lt;work_notes_list/&gt;
+        &lt;work_start/&gt;
+    &lt;/rm_story&gt;
+    &lt;sys_attachment action="INSERT_OR_UPDATE"&gt;
+        &lt;average_image_color/&gt;
+        &lt;chunk_size_bytes&gt;700000&lt;/chunk_size_bytes&gt;
+        &lt;compressed&gt;true&lt;/compressed&gt;
+        &lt;content_type&gt;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet&lt;/content_type&gt;
+        &lt;encryption_context/&gt;
+        &lt;file_name&gt;fornecedores.xlsx&lt;/file_name&gt;
+        &lt;hash&gt;2563535c195a2d80fae1aa6976f315e206b2f4255fb9c40bdc90989911a8dd28&lt;/hash&gt;
+        &lt;image_height/&gt;
+        &lt;image_width/&gt;
+        &lt;size_bytes&gt;9181&lt;/size_bytes&gt;
+        &lt;size_compressed&gt;6739&lt;/size_compressed&gt;
+        &lt;state&gt;available&lt;/state&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-03-27 01:10:19&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;b08fad4e2f7d21108f54bed72799b674&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-03-27 01:10:20&lt;/sys_updated_on&gt;
+        &lt;table_name&gt;rm_story&lt;/table_name&gt;
+        &lt;table_sys_id&gt;94fe294a2f7d21108f54bed72799b64b&lt;/table_sys_id&gt;
+    &lt;/sys_attachment&gt;
+    &lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;
+        &lt;data&gt;H4sIAAAAAAAAAA==&lt;/data&gt;
+        &lt;length&gt;16&lt;/length&gt;
+        &lt;position&gt;0&lt;/position&gt;
+        &lt;sys_attachment display_value="fornecedores.xlsx" sys_id="b08fad4e2f7d21108f54bed72799b674"&gt;b08fad4e2f7d21108f54bed72799b674&lt;/sys_attachment&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-03-27 01:10:19&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;f08fad4e2f7d21108f54bed72799b674&lt;/sys_id&gt;
+    &lt;/sys_attachment_doc&gt;
+    &lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;
+        &lt;data&gt;7Xp1VBz70u3g7u4uQQcL7hrcBoIEggZ3dwuSEEjQ4G6BwZ3g7gzuTpDgFpyPnHvfPefky/37vbXe2bNWd8/0qprV3XtX1a+qVRVgYHEB8ABEAABABTA+TLMwgAIAPsICADgARGg9SXs7FzM7F0NNTwcz51dsHrY2lNmw0IyZAGjAP/j/GiVxg8qdQEzpH3J3kpus8ouVYog8B0G92ExqIm1dsT1fTPTSLS0f0yNuMSWy8Kx4K7BHF705T4YtKu1sa4PCe5rUUd8H9rWBDEh42bt79+laCYhinHR1jjJxScQ4iAwNP5inAD471nWqc0uticuXEFvg4YsEbKTN92phrfQ0oH7RLeTvW2hfVdZaxuIbKJrA3IDgTFpZPvM2ONtgfQH7ntp7Ed/NIE+V6qXGM2P1BqebRIUWZ8Z6rqnXJtDLwNCPzehLIyvwTS285ErcxJVF786/6PZ8tGZu9dH38WpljHp/rnrT+BzPwpBVL10skCpofBagav2+Gh/MaTfq2yWKl6M4eNxBuXRLt4ZD2rVCYtqYHv3RVJmQ2pZlNa83XUqFn5cpyK+gr7+er03lwITUxy4fgrAJK331iHuJtdt41iaB2d9GResbdrDatyvovT+2pRd8eJKw68/5AA8APD7CAFT/JssaEJDm/OlI8Ul1KE+yNHQys3FmZ/u5/UeO/+AnSmKUVDqBqKFHcndhfT+mlj5iSii4i8s1UWn6BbxYxKj5kENLstTKQIqpSRwMI+vf7Hc3sLAk9GGvj+pynbvkPTauIE2tOzg08cbRFYGJ3ilBxrFkrQvLbepi6jJJVt6T0a05mqm4vjBLoX+FRmbiRKoCc5RNmxgJJ480FF84KVC3R0ln2fiqFGpKQuMAHFpex5u5Fzua4j+TkL+LJhrOr7g/noTX52z8Zq7Up8+G6uKaGKRhwW9ZbpzuJEDtaWhq03YmldKKc+/Dqpzap07NjX3FOSrbS5d54a9bzX0ymObZxYvUWdx33B/0nqJwGep3IqmqDGO4e9LB0JOEMJ5+8bBhd7d3sja2t7f+mbdKQK/sU4C4vhnVjwF3yu2wiJkxTLRSxdVKajPRiXKxMMrl0J/n8l+ALlqPkkPOadhfNYVfBaP0bl+RG46wu4EsFzWoiMpMQkZtTMcENviLZzgaG9KToDhzqV2V5Q0mCIVVI9hkDFtT7RtmWfhXCAGqg4R48jyfzPpLMvE+vfmaxSOlpa8p1a5ZwjqHKO+ko/rly7iTzUIdU4dVtWx4lzfwyqqbU2BLRw+ieyAOyxoBfVP5+sM+5Mu+sAMeVkotB5cBD6DClE4Dg4yR8wtLo/6M/kczpEr3WS43aDaKh9nQnl3toLF+dbxB2ESfvBHA/HysCCTaFmVDW69ccCn4B1VDQuYPxe3jPvkrCtMtioq7N0Abf2K04BqBMqlyTwqps6hFUm4Bw4qY5UOw9cf86xdMaUXYRHSfmIaTsj0jQ4Fbejd7oRYpuWZ0UmQUGDamH6Lc0lFoCpjHE/aIIxc7O/uP78dOzmNfRzoWFRZGZOMYMB+vic+8EZ4xUkFGR+ct3clIQEJGQLmD082i05FKcFLWNKrOjoTQ6i7KfWy1KE6t6o4b+LA+vP6WvX+X6grhTYziYI3YUfqE352WoCqO2lFLAzZ8JHvBChVMa5/wJkxlOkXUdzobj+NbLAzsyAkXG3gPzudL3BfDtOeh32YpBAlHg+YcOD2g8TqiOZV1QaROJRwmmxISKhKifaXRrwWtdB6+PuT4XiU1+k+cVzCANbWr9GTqTufQvKz2D1+mnbF+Ntvx6vPYKZBEqLZtmiUbBEHRI0ncehyRmH2HRjSZQdjYeZcV0b3D4QBfe6RSQYQa1OWylGRC7wHkenPJR8RAddmxW05j2vx6Ml7p9fSFzJKOr0FMcjxcu2q2K2jqFsUEa9esyyyq6e7C3jx3qG2p8Ts5asVByA1So8ZK3p4XEB8mdLamV1LQRUmQzCOfJCSKqB6mN7Veg+EidJdbSSiN6tV1zqPao4C/7D2DdBVLuOpMkCnJFeYrCEiC1sOSHfEqCM97Wutxeocd8DuhBIrEJZ49HTU+iYUYgAj1JJR/JZS/yuX/JBeop+QC9X81sv0/gBJ1JYUuIGYzykMY0D3FDQ9rzoWdeh/0HQOxv/rZAj0Vl9/5CglT46uX0wrsMPahnkfDvW4/eNDXYXAu2pkL32HDeuHYHAnC2Q+fDcMgGh+AyYNk4XCw9/e+Fx+goCc74zSIxPSxpOPyfbtipCMKy8mnljpvGA/lthoBunJaOY+RDTwF18HqzYCbEI19cFB1XR1l8jPzrccGyYVL+IwgTwrIGRHSCyE0TwBkZ5KK+apd+hLx9OuduZLniHV7zg3qFmmxAvkXHmGfUBfKsD5ZCv9nMc5b2UlNoKM1F4nbgWetC6csg+dH5pv9vVMrgN9RphpbOswBBgDgRgIACAH/ia3OFmZmLs7sf+w4frImNVYhOgWI2XsUf0PGsuIZihkuoUU7V+hdfCMkaI6oBcyvPVOfOmqBoZ2Ld7Koxgb2XN49cKWf7O/SWjsBbEOsOInrRejGHEDh5imQDNFpZYmIipJnL8HEfTtEqL7J/g/cgkzNXHgBdHIWijLM1gtF20QGgaY9IFbuenUm1qRuw+YLxeJAvObYkuaxHyYqnJCxQOBUNFBTBxmdufsHNrGgGPfkkPFdPja4YZzWH5YhaflAL4x5jtqYxspoVDgOu7+AfUHGsraI40gDk0NZmTgDcwUCys9o1YgJsjbTtHxF6y059GO3wGCPw49mafsRkz5cCA0BgneMhufHkvvax+StfTkEwegEbZosMf1Q+hOkNcc0ScYzhu89t2LqjmeSgGeLAd97Wp3oBE9SIZVTfxcRZlit+sF3FoxcyQgTIMXm65KjDEPoqG9Ln1/WXqPzOKAUYqmO12zLFL2qO4Er8KFN9pOUNV18B8OSVcrViFy+PZxhkEuSE+I+4SHasge+TXj48gKKbmHmMkXAD6oCzIIczQEp1cjv9oQLNXmfXU0SJcikzUN9rJC7c0hcSyiI1v6uQ4sITZKXKDqHL4nSHKanVLo3N+ToA+j0RzlzfTk8ckJRQaawwfRJj8hOpNluGsQgtXMWjVq0J4DCTIoAft4a8EkQ6c7l/JHl64OcwR9J+Q/2xMW+Qg8CYoaUSXgBsu6KcrmxvLCCaEWyKmAvLu3aXZpIyDc/cFbNsXOBK+uMPivyuuoKH5Xt6KA8o77dkUExBLFl1w01tTT6Db2+NUq1+kQ6LmExJXgEN3Q82OE5XfTuDXj9oYAnK0EVjMbzggfHKmnGuO0scpdcBujdg2OCWpPK0UinQOrX+Dp3zaVBKfmACq5qxdU0N8vNPNcOiS6exQEnSkExNRfZ9nFF6LNw8eYUDpag/qHi92mgLn4z1dlngSzWy7EgIstrOkrqy/rxRp7IBJDJc5ZZTCO2H8BgohX871VU1P7iUl12WnGEGXcE/7lulwE15OCnJREEHMKSOdL1mbFQ0AHrWVREIVkEjJ1h7j2Th+iK5wE5NRpV77VzYTz9LvdXpi5irMgpplGOe/uO2/vTmrqA+Lph3oKpFGkP7zYpo1wfk4hax1XUO05dpaHTEOkVfIbtLTmpccPfqtRCCMZXCwEA6KP8uXr/Q6UuFma2Zv/a/iHQfR29aBIeXD/ZddGXZ+nfnscOfnk2UKPQtKC1VB0ua79uungRSbMwZxvClHXahYKNTWnw0WMDiuqjGPRJR3TR5LvB6NVZrv5ZkjCDWWqxpk9aRNuCvb3bpP4izj4X4DAkyQIpuYEJZdVmdSTMFww+8hOeDPW85PG6UDHIBRpDHvIC7e/6VsHW9i2OeEdFn2lhA32YfjgwhMfr7scPOkF3vjRYQ4npsOdiwy5ZVRsa1AgcFbPvGKiRz1NTBirBxK3DTkaJwyvxNwqnQJCQSsFTGERDn5iKEOgVSS23aBMryidiv8j0xe9zBSpzfIcFTsRlfOiXxKMMzQuiEBDvvoPbstYe9GAnMLYKK6Hj5fRv0GcDChcl8XffeXBZEsoY5TRB7AGKthuhw0Yms7M7XAChpDZ5Lj39tGFd0aEKfMbbPYiwBfoeCMF+t8x+bvHDeW87iWq+6GJHtIzvcXYwbyYqhe1ajkETr8MFiWqovc1aSvwhpY3ADRqjObfwnIR2tkxzq8EBPOeGzQqKvexaoc5gPAFjX6iS2+4zcyFQkxNrO0Y9IZQYDJEWt7RVDSWXUKDQoYlMNJw0ggu55DqrwwAdqrZVvFoe+uMFA/eKotQJeXtCdS0Kyyc9yXlyWoYgNk2GeihdGJTT84KMdKGHtf4Nigyf4/bY3pVvziSgqEUR5e3axSND37tegqOclZbH0x8qIsP5ItGJzx/meClEbq8TW9UxmNn0T86rjtLvj5cmRkVvLr6rCM03QVMsHHMohUvV9RE1DuK8zOz1c2IxUDYmNdmTWyV08dbEAO0D7MHAszWvLtc1XyiWDRgDQxEHG+F33epqo0O8G11Q5E4jXvoeZA4ao2aeHl8Vtx/6u8d7lrqvJnndKQqUA8IG4caYL4r2e7s4ztA7izqcY7DfntvfhWCO7i3nTZ58p0pDZLtWzHJ/tme059r/mVwwQhPxYAJ2vfKUCDHLzcfZg+KC7wzsJab8itYGZUioJxrJedGDjB1P2Yepl8+othOj/J2vDDm4q6sHLS9IbhRpw4KPTv3G1A7lZRneeUob8KGcohK0Tv02m0EkDeGzMwn/KsM9IQNK2TD3B9v9hVNYddwcQf3r1bDFJaobovWAibS1FpUInMNtnHZhSu2FXGrxc3aFtYgt146l+3pjLkUflgm8iM7SV+LNcxC9kbRJEcqQNS4hOtgl7wUT8Wh20gwCmZXwQNBlBHuF3Wte7QtneVrx/NK5/D4YprQ4YWrnls70zin+dZ017nbjxG96mK4MrmtxZ+q7ts/5KwLrGHEDPrIbFCwmZHbKH66xgd2N91Nf3ejcnLnSpV4195EH+16vmv2g6/uYmABl7G+0EsnhTM+IbR6Z1XYMYQ3nW2N/qi6suhIMGpKaLN8DxYw2JwWRlDL07lKZvbP98/dPCIAEqsdXeI9p6m8I8vYzmB3c1h6CzYYB7BOCsMoxtiONJVZsxcmr/oZT+/ODiTVDZqzOOoNXyy0GCqwaceyqc7ivyCfOXrjV+pjHVdDUGG+KJZdGh/Am7yLCKwkOnNPysrZJoxqewccGp6DYmH5c3SP7sp5DyJ7Jo8kzPNIwBBql03VAIqPhskku2ky1m3DXpQ/zSXYVKAYtTQ3pM1Yw9TBDzEkbNZkkeZOlf9jlLJ9LbucPNj4XG2yJxJo2LcVyjcYavqCUWiuLBDI3YTLPkzPr6t4LaH5ntNOHyrfNhi5bRDSYFBTHNScztegR9xSZchxI7v++s7eqb5Hrzh87RwSguxSAeSdXVwMWTCzQTsybR5Ga5+iQ551BZEYz8cAaqZqwazA0LVmQliM7q2aebsoC5sx5kVVM0zpFkby04oJTgOgwWEzS1GsnrUozfBbvJWyhR+kjK1ppBKZ0dg9KRdh0tiJXsYRowrBsDK2FunA+lyukhuZIdoFuvlN6Xj7pEF4B1oWRuJohnoHXva4jQhB3D1Y05+JUc5sFYx3s7mMRimwgH5XJ3E2168awUy3KnpyjklXl1b+n6s42Bwk6yNPpk2py2Ss/WwyxDS/pa3VG0FBuugTF9WfZkFZJR57hdNOfodrJuZhEec5ftXkNzKCiL7mtnehTlPvfTvo+qIGF33wydzQXKMlWURJNammRXK78widFVsy59/xosnK18TL5O6Vac0GXs/ISAR8my8S7ftKJ6u4F7hJ+QQpXpaa2oLZTKZOwledvQmZwyrxOgxevS6YQuhpLuSPs2YYP9Gz97gB9JoAfYQr5uUh0izooqNKGbjBJEHibT2FMZVhrJLrI80jLxVJL5Ybvb/LkmYkTOrxePqvJtmue/JDt5UoIYg42OMAiZWFS/qLmZiQaxIxaO1B2MHw1PeVb2ZLXwLn2IimF+bqSY1F/Sdt6ZMrXDS2658ZcRAxXbrtZxnaytM77g3rTMll8h3gZyOoHSfN4JsQeXSbYb9IqmhxuZzKg066Z4nkoWD1n/iixQ0Y6ZcUqMdkIPI2WsjQN3BcZGCR86SlD0cDe1txTau0P/bs0nEGZkV/3dCYdHgBA+1cadnbxtDFz/pmAc0ELdgtAVN+nu415fjjgtsGCZEOgoAED12gkJvi67B0rg4QrBy2d8/P9FYU55fXsTrYDBSnI5BoVRl6uNhjXYjRyS9eMrxGRw/jLJJ52Cqq/L2MQkcy0GkgtC2/wOFDHJ77VP1HXHXPfb/CzJCDLJrRuhAdFwqbBLGYeZQkIZ2hlS+tazkNiTNJpYXZP9UyONFSD+pl2vezLvlNDMVqe6CZ6xhqbwg1rtnpBl5eE/U6OTWrzYzWAL7bcWXRWOUURatZRLwSO3gvFJMrovWpCaaNrLPXsNxhPi+XP2iJC+mgYhktHG5kxtZysTa0UbuR9uNXpqWu9xcJ0ocyPiRN+g89CHv9QivzYL3hbKFQjOpaOfCz1edOy6O3zvkCXsYaRnEJT3y4ePB/beozios31sSaTo51J8nXasGVvhhOh0O4OKrauCNA+UgCNirhIbyTT62D427UxMS+42OlOF0f/iGVCr/B1U5cAF6QzF7ASXKzvYS8kviBoCj2cuGXuZmoX3m9mnl9VVIVZmVdXbU1hV1wZPk6Dk+rw/ty/OMOojkddUEfOXc+M8PCTfQckRAK+qvc7L7l/5LRJ9GvfqgcK/JoLpEe0AixbYsfjU1QciCOcWw6+kHVbEe7mG4bOjPspAuBbGLLqZce1+hulkwCdmm23UAOl7TLHmR0N/B2rbqtGnMO1c47ON7c4xVfKPQWF7D5lrxA+rVX5boOi80UQrJfS3qq9xTtAHT0eTdkKu97LDw/WqU+Fi1VIgD0zbUCO6b9wqmH6ZkRq8EgsTG/vId9YhwEbRY/CvNrOIVkhGfHjjWGobEq6H++RmPeQL7lKZ/QLXPhuM0K42GdpcFW7Zti4L3DL8mO3lNRpaQ77mTNSP0qpPXp4nvZ3OPbDasuCo5A/NFNi2zyqwvIziY/4s1zj/LbQhPbilGp8qvddnpaEuP9muIWRk5mphouTpd2bP4juoqEWNQHEvJddR09onY3mc1vvQpevZKXDy7RtCnIC2K/bUmMLzqKzMKxT6kfGaVHyl2xijA6l8I5ybdxdWu6081raFICgkDow5UDf8zUKoP1E7GDQA10leLJn5PGPw6qPa32uqeumA/m156BrRz6UdY5Ng0lDpL3irKKErLgQeVO+4c5D5CCzWvK850YhjsTo2RqYk17qpQFqqO25jWWxi3eucQ0HA4vxKff3YUIuZuTpB+/L5sErK9cj90bagXXWqgeHoloZ035XL5dAC50tp/csEp9NunRwjSNfiNVHl0/wWW1oRTc/iLgjT3kdU5UhNkBZJpzyhTP249cIbtHTsHxcZcx40Pftu5QQoXke9lbqnXEMpUSftDGuKAOkgfm+itpS0QRfVbF8tCKpR9fnEz439L7pUVgObl4kZTKkOBxO3JfOoovydsoy3eHRkEioGSqOgRblpWKEIUJv+CdCM6SmSaP3vbUYHYjNVjWCicdnKxFrRpwFL5KVA2SCed+UY2DXJo1mw6zPqEAsnA8DYfWyUsvPZG6B8ljbqHQQV1KfCg4+akojrG6oHJbrRIqR1vw7tN8969ELV4DE07M2fIpoWABEKFN7E1UnewdndhN7J7N/DwT/aRI9ITJm+OdALORI7qvkprcxAxZuCW088l4ENe07sUUW7wWZLtFKtCz76NhqS1V+h/OR/boqZoIz+zkpw9evwKCI8ZBMRNyZbK0F7OaSxBO0d6lv5MtlmBkh5KTJ2okEcLxx1igqWiTlLfAEcDFOcSnYB195cU163SmTFIIk4RxzwKYiQgf4JD2is/gOMn08CatJr9PX0AlTPoWjy7XL5l5XK2FgkkrCYMe58ymp+5x6lY/fz40x4xSU3C+HpKE7Fti0Izi6+Dd5cdfaplR7UtBsqpws7K01GPKUgtyZ0QuZYAsWoc/mtVBQIDnjcOmTjbc8Q9cgvot8+IrZDJtt9cyLNQTacMauLMmrnNPklaWyxMIBuYRe2uiquWRML2mL595H9I97R+tocJ6fH1WM5fsjv9XhrGOp4l3tK2iKAn5HPC7WNpe3T6zCeQoymH8lnpGDwz+8+xOpMe0/K4rQI5hL9NDDD6lujKFiWmq5ZF6z5YAX3tumAvhMCkFdxP3pftUf8pUXJuxo/ddnZNX3vo01ZPfG2R7Hv2STV8vkzar1M4zoXYp+f5TdB/vEMiGt9XCdxZ0yw0n6t+ERLN+CWH1KpRRwtdXNJ4wRPNsr3+QhFcGscx+YWRBbH7N9TkQX7h+s/JrgQXnOM01wYspI3wtSebTWReA63ipY4uAs16rjELAO8JC/H0zGdbIorBcldJEfke520eNm7x9XS5Qf0ajhWXUY7mmESlTrrwvyEiNMqIVKqdQSBntx46p/OjA0WMhjfBDrgSrAFqZFSSe0tkiJ4XDj0BgnQVhuxK+MKVGp4UitGzG5VWLvhUcfIUEIjgh+69yRRhd27V4VKJUBYN9uo+kM8Y7iExaUJQ371rs8VyZJ0E6hwyctCvYfiXYkOAw4ds3alq6xpTIa5uVjvdNUxfg6uAkf64riF31hPSprxPc4cd57ceqlZhDvM6ej1F+3UvL4n1EUFDQr4L+9SPErfvNaxa8O/j7y/SsSn/TwlwHwr4a/jsH+xFf4/zUU+9X476OBv2IL6Q/j/zIo+NXPr/3iP0GI+t+7x796+bWf9SdaMH7b3frVwa+V+J+QJvilLv/V9NcS508wEP++4PnVw98T51+BQwoA/K80+qv538PfXxFJ/hfzfwdDVQU4+J/nkJ8+AU9/KEv189v/AChI6zzdIwAA&lt;/data&gt;
+        &lt;length&gt;8972&lt;/length&gt;
+        &lt;position&gt;1&lt;/position&gt;
+        &lt;sys_attachment display_value="fornecedores.xlsx" sys_id="b08fad4e2f7d21108f54bed72799b674"&gt;b08fad4e2f7d21108f54bed72799b674&lt;/sys_attachment&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-03-27 01:10:19&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;748fad4e2f7d21108f54bed72799b674&lt;/sys_id&gt;
+    &lt;/sys_attachment_doc&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-06 16:57:02</sys_created_on>
+        <sys_id>21c051362fbba9108f54bed72799b635</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>11 - Training Story - Import Data</sys_name>
+        <sys_package display_value="Bootcampers" source="x_938900_bootcampe">7b25028f2fd661108f54bed72799b692</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bootcampers">7b25028f2fd661108f54bed72799b692</sys_scope>
+        <sys_update_name>sys_metadata_link_21c051362fbba9108f54bed72799b635</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-06 16:57:02</sys_updated_on>
+        <tablename>rm_story</tablename>
+    </sys_metadata_link>
+</record_update>
