@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="G4 Integracao de Informacoes">23f5c11f2f29f1108f54bed72799b6bc</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 05:16:56</sys_created_on>
+        <sys_id>fd06051f2f29f1108f54bed72799b641</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>G4 Integracao de Informacoes.catalog_g4_integracao_de_informacoes</sys_name>
+        <sys_package display_value="Bootcampers" source="x_938900_bootcampe">7b25028f2fd661108f54bed72799b692</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_g4_integracao_de_informacoes">7106051f2f29f1108f54bed72799b641</sys_portal_page>
+        <sys_scope display_value="Bootcampers">7b25028f2fd661108f54bed72799b692</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_fd06051f2f29f1108f54bed72799b641</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-03 05:16:56</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>

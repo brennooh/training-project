@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="adffvxvx">238692e12f7571108f54bed72799b617</sc_cat_item>
+        <sc_category display_value="Tipo de Servico teste">7aeed9972fa9f1108f54bed72799b663</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-10-10 10:55:05</sys_created_on>
+        <sys_id>678692e12f7571108f54bed72799b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tipo de Servico teste.adffvxvx</sys_name>
+        <sys_package display_value="Bootcampers" source="x_938900_bootcampe">7b25028f2fd661108f54bed72799b692</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bootcampers">7b25028f2fd661108f54bed72799b692</sys_scope>
+        <sys_update_name>sc_cat_item_category_678692e12f7571108f54bed72799b61e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-10 10:55:05</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bootcampers">7b25028f2fd661108f54bed72799b692</application>
+        <file_path/>
+        <instance_id>a2e569f2dbeb1f8852e3f70fbf9619d8</instance_id>
+        <instance_name>dev68079</instance_name>
+        <name>sc_cat_item_category_678692e12f7571108f54bed72799b61e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="adffvxvx">238692e12f7571108f54bed72799b617</sc_cat_item><sc_category display_value="Tipo de Servico teste">7aeed9972fa9f1108f54bed72799b663</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-10-10 10:55:05</sys_created_on><sys_id>678692e12f7571108f54bed72799b61e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Tipo de Servico teste.adffvxvx</sys_name><sys_package display_value="Bootcampers" source="x_938900_bootcampe">7b25028f2fd661108f54bed72799b692</sys_package><sys_policy/><sys_scope display_value="Bootcampers">7b25028f2fd661108f54bed72799b692</sys_scope><sys_update_name>sc_cat_item_category_678692e12f7571108f54bed72799b61e</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-10-10 10:55:05</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1424779360</payload_hash>
+        <record_name>Tipo de Servico teste.adffvxvx</record_name>
+        <reverted_from/>
+        <source>f27199762fbba9108f54bed72799b6c8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-10-10 10:55:05</sys_created_on>
+        <sys_id>fb8692e12f7571108f54bed72799b621</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b1939e0ba0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-10 10:55:05</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>338692e18d757110b8a99483ba1d3e21</update_guid>
+        <update_guid_history>338692e18d757110b8a99483ba1d3e21:1424779360</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Tipo de Servico teste.adffvxvx">330dde692f7571108f54bed72799b657</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 11:23:29</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>4a342f7390c44ebc9b79a3860e1c8d21</sys_id>
+        <sys_metadata>678692e12f7571108f54bed72799b61e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tipo de Servico teste.adffvxvx</sys_name>
+        <sys_package display_value="Bootcampers" source="x_938900_bootcampe">7b25028f2fd661108f54bed72799b692</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bootcampers">7b25028f2fd661108f54bed72799b692</sys_scope>
+        <sys_scope_delete display_value="">0149b0b4ce854b7480057baa818ccea1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_678692e12f7571108f54bed72799b61e</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_678692e12f7571108f54bed72799b61e">fb8692e12f7571108f54bed72799b621</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 11:23:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="33232">4524ebdb2ff131108f54bed72799b6c2</sc_cat_item>
+        <sc_category display_value="Tipo de Servico teste">7aeed9972fa9f1108f54bed72799b663</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-10-16 03:03:26</sys_created_on>
+        <sys_id>c124ebdb2ff131108f54bed72799b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tipo de Servico teste.33232</sys_name>
+        <sys_package display_value="Bootcampers" source="x_938900_bootcampe">7b25028f2fd661108f54bed72799b692</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bootcampers">7b25028f2fd661108f54bed72799b692</sys_scope>
+        <sys_update_name>sc_cat_item_category_c124ebdb2ff131108f54bed72799b6ca</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-16 03:03:26</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

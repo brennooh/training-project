@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0710069c2f04c6508f54bed72799b690" label="choices teste" max_length="40" name="x_938900_bootcampe_choices_teste" type="collection">
+        <element display="true" label="escolha" max_length="50" name="escolha" type="string"/>
+        <element label="parent" max_length="32" name="parent" reference="x_938900_bootcampe_choices_teste" type="reference"/>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+    </element>
+</database>

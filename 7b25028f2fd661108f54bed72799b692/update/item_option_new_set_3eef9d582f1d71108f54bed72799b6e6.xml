@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>grupos_de_atendimento</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>200</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-11 13:13:08</sys_created_on>
+        <sys_id>3eef9d582f1d71108f54bed72799b6e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Grupos de Atendimento</sys_name>
+        <sys_package display_value="Bootcampers" source="x_938900_bootcampe">7b25028f2fd661108f54bed72799b692</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bootcampers">7b25028f2fd661108f54bed72799b692</sys_scope>
+        <sys_update_name>item_option_new_set_3eef9d582f1d71108f54bed72799b6e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-11 13:13:08</sys_updated_on>
+        <title>Grupos de Atendimento</title>
+        <type>one_to_many</type>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>

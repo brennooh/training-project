@@ -100,6 +100,7 @@
         <template/>
         <template_manager_roles/>
         <type>item</type>
+        <u_flow/>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
         <view/>

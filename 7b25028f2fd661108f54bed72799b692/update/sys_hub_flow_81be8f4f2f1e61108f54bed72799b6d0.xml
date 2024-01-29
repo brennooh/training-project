@@ -387,23 +387,6 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_81be8f4f2f1e61108f54bed72799b6d0"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_81be8f4f2f1e61108f54bed72799b6d0"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_81be8f4f2f1e61108f54bed72799b6d0"/>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=81be8f4f2f1e61108f54bed72799b6d0"/>
-    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=81be8f4f2f1e61108f54bed72799b6d0^sys_idNOT IN050113c72f5e61108f54bed72799b6cd"/>
-    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"050113c72f5e61108f54bed72799b6cd","name":"plan","plan_signature":null}}</plan>
-        <plan_id display_value="Outros Cursos">81be8f4f2f1e61108f54bed72799b6d0</plan_id>
-        <snapshot>888826972fdaa1108f54bed72799b678</snapshot>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-04-24 07:21:37</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>050113c72f5e61108f54bed72799b6cd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_overrides/>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-24 07:21:37</sys_updated_on>
-    </sys_flow_subflow_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
@@ -795,4 +778,21 @@
         <latest_snapshot>940113c72f5e61108f54bed72799b64f</latest_snapshot>
         <compiler_build>glide-utah-12-21-2022__patch1-03-01-2023_03-13-2023_1716.zip</compiler_build>
     </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=81be8f4f2f1e61108f54bed72799b6d0"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=81be8f4f2f1e61108f54bed72799b6d0^sys_idNOT IN050113c72f5e61108f54bed72799b6cd"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"050113c72f5e61108f54bed72799b6cd","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Outros Cursos">81be8f4f2f1e61108f54bed72799b6d0</plan_id>
+        <snapshot>888826972fdaa1108f54bed72799b678</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 07:21:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>050113c72f5e61108f54bed72799b6cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 07:21:37</sys_updated_on>
+    </sys_flow_subflow_plan>
 </record_update>
